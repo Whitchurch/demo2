@@ -1,0 +1,7 @@
+C:\submissionAfterFeedBack\algorithimdevspace\algorithimdevspace\bin\Debug\algorithimdevspace.exe.config
+C:\submissionAfterFeedBack\algorithimdevspace\algorithimdevspace\bin\Debug\algorithimdevspace.exe
+C:\submissionAfterFeedBack\algorithimdevspace\algorithimdevspace\bin\Debug\algorithimdevspace.pdb
+C:\submissionAfterFeedBack\algorithimdevspace\algorithimdevspace\obj\x86\Debug\algorithimdevspace.csproj.CoreCompileInputs.cache
+C:\submissionAfterFeedBack\algorithimdevspace\algorithimdevspace\obj\x86\Debug\algorithimdevspace.exe
+C:\submissionAfterFeedBack\algorithimdevspace\algorithimdevspace\obj\x86\Debug\algorithimdevspace.pdb
+C:\submissionAfterFeedBack\algorithimdevspace\algorithimdevspace\obj\x86\Debug\algorithimdevspace.csprojAssemblyReference.cache

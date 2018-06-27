@@ -1,0 +1,8 @@
+/Users/whitchurchmuthumani/Projects/algorithimdevspace/algorithimtest/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/whitchurchmuthumani/Projects/algorithimdevspace/algorithimtest/bin/Debug/algorithimtest.dll.mdb
+/Users/whitchurchmuthumani/Projects/algorithimdevspace/algorithimtest/bin/Debug/algorithimtest.dll
+/Users/whitchurchmuthumani/Projects/algorithimdevspace/algorithimtest/obj/Debug/algorithimtest.dll
+/Users/whitchurchmuthumani/Projects/algorithimdevspace/algorithimtest/obj/Debug/algorithimtest.dll.mdb
+/Users/whitchurchmuthumani/Projects/algorithimdevspace/algorithimtest/bin/Debug/nunit.framework.dll
+/Users/whitchurchmuthumani/Projects/algorithimdevspace/algorithimtest/bin/Debug/algorithimdevspace.exe
+/Users/whitchurchmuthumani/Projects/algorithimdevspace/algorithimtest/bin/Debug/algorithimdevspace.exe.mdb

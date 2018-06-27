@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="shortestPathAlgor.Views.MatrixUIs.Page_NbyN"
+             xmlns:customControls="clr-namespace:shortestPathAlgor.CustomControls;assembly=shortestPathAlgor"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <StackLayout>
+                    <customControls:Custom_SubLabel  
+                Text="Enter the values into the 4x4 Matrix and hit calculate"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+
+
+
+                    <customControls:Custom_SubLabel  
+                Text="Enter the number of Rows:"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+
+                    <Entry
+            Text="{Binding PropertyNumberOfRows}"
+            Keyboard="Numeric"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="White"
+            TextColor="Black"/>
+
+                    <customControls:Custom_SubLabel  
+                Text="Enter the number of Columns:"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+
+                    <Entry
+            Text="{Binding PropertyNumberOfColumns}"
+            Keyboard="Numeric"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="White"
+            TextColor="Black"/>
+                    
+                    <customControls:Custom_SubLabel  
+                Text="Enter the Maximum Weight for the path:"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+
+                    <Entry
+            Text="{Binding PropertyMaximumWeightForPathAllowed}"
+            Keyboard="Numeric"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="White"
+            TextColor="Black"/>
+
+                    <customControls:Custom_SubLabel  
+                Text="Enter the rows separated by ',' between rows and leave space between numbers Example for 4x4 matrix: 1 2 3 4,4 5 6 7,3 4 5 6,9 9 9 0 "
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+
+                    <Entry
+            Text="{Binding PropertyMatrixValues}"
+            
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="White"
+            TextColor="Black"/>
+
+                    
+                        <customControls:Custom_SubLabel  
+                Text="{Binding MinPathValue}"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+                    
+
+                    
+                        <customControls:Custom_SubLabel  
+                Text="{Binding NodesOnpath}"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+                   
+
+                 
+                        <customControls:Custom_SubLabel  
+                Text="{Binding TravelledFromOneEndofMatrixToNext}"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand" />
+                  
+                </StackLayout>
+                <StackLayout>
+                    <customControls:Custom_Button
+                HorizontalOptions="FillAndExpand"
+                Text="Generate Result"
+                Command="{Binding Calculate4by4Command}"
+                />
+
+                    <customControls:Custom_Button
+                HorizontalOptions="FillAndExpand"
+                Text="Go Back"
+                Command="{Binding BackCommand}"
+                />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>
